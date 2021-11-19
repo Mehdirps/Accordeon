@@ -1,0 +1,29 @@
+body{
+    font-family: 'Baloo 2', cursive;
+}
+.title{
+    font-size: 2rem;
+}
+main{
+    margin: auto;
+    width: 80%;
+}
+.lorem{
+    padding: 10px;
+    border-top: 1px lightgrey solid;
+    border-right:  1px lightgrey solid;
+    border-left: 1px lightgrey solid;
+    
+}
+details:last-of-type{
+    
+    border-bottom: 1px lightgrey solid;
+}
+summary{
+
+    list-style-type: "▶️";
+}
+.lorem[open] summary{
+    
+    list-style-type: "🔽";
+}
